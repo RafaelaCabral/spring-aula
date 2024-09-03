@@ -11,4 +11,4 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
-app.mount('#app')
+app.mount('#app') // Esse app está referenciando o id da div da index.html, se trocar lá, tem que trocar o # aqui
